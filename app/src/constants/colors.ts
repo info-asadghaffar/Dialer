@@ -1,0 +1,17 @@
+export const Colors = {
+  background: '#0D0F14',
+  surface: '#161A22',
+  surfaceAlt: '#1E2330',
+  border: 'rgba(255,255,255,0.08)',
+  primary: '#00D4FF',
+  primaryGlow: 'rgba(0,212,255,0.2)',
+  secondary: '#7B61FF',
+  success: '#00E676',
+  danger: '#FF3B30',
+  warning: '#FFB800',
+  textPrimary: '#F0F4FF',
+  textSecondary: '#A0AECF',
+  textMuted: '#6B7A99',
+  callButton: ['#00D4FF', '#7B61FF'] as const,
+  endCallButton: ['#FF3B30', '#CC0000'] as const,
+}
